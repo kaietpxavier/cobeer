@@ -1,0 +1,22 @@
+/* Buscador  */
+.buscador_div{
+    margin: 0 auto;
+}
+input.busqueda{
+    padding: 9px 10px 9px 32px;
+    outline: none;
+    font-size: 18px;
+    border-radius:15px;
+    color: #444;
+    border: 3px solid #a50559;
+    background:#fff url("lupa\ \(1\).png") no-repeat 9px center;
+    background-size: 20px;
+    width: 75px;
+    transition: all .5s;
+}
+input.busqueda:hover{
+ width: 200px;
+ background-color: #fff;
+ border-color:#8c10b3;
+ box-shadow: 0 0 5px #6dcff680;
+}

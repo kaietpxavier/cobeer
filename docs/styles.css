@@ -1,0 +1,96 @@
+@import "components/menu/menu.css";
+@import "components/resource/resource.css"; 
+
+/* CSS Reset *********************************************************************/
+
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Sans", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Grid general layout ***********************************************************/
+
+body{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 10vh 10vh auto 10vh;
+    grid-template-areas:
+    "header"
+    "menu"
+    "main"
+    "footer";
+}
+
+header {
+    grid-area: header;
+    background-color: #364170;
+    color: #ffffff;
+    padding: 15px;
+}
+
+nav{
+    grid-area: menu;
+}
+
+main{
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #738AF0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+/* Resources container ********************************************************/
+
+.resources h1{
+    text-align: center;
+    color: #364170;
+    font-size: 2em;
+}
+
+.resources p{
+    margin-left: 15%;
+    padding: 3%;
+    width: 70%;
+}
+
+.resources{
+    padding: 1%;
+}
+
+.resources .theme {
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    margin-left: 3%;
+    width: 90%;
+    background-color: lightgray;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+h3.themeHeading{
+    position: relative;
+    bottom: -20px;
+    z-index: 1;
+    background-color: #BDC7F2;
+    color: white;
+    width: 15%;
+}

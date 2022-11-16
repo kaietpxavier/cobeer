@@ -1,0 +1,14 @@
+.contenido_articulo_departament{
+   margin: 20px;
+   color: rgb(88, 88, 136);
+  
+}
+h1{
+    color: rgb(250, 250, 250);
+font-size:30px;
+text-shadow: 1px 1px 1px black,  3px 2px 4px rgb(221, 87, 87), 5px 3px 7px rgb(0, 0, 0);;
+}
+.contenido_articulo_departament > img{
+
+margin: auto 0;
+}

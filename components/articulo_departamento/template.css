@@ -1,0 +1,28 @@
+/* La imagen de articulo  */
+.img_articulo_departamento{
+    display: block;
+    margin: auto;
+    width:360px;
+}
+
+.divh2{
+    text-align: center;
+}
+/* contenido de articulos donde pongo los articule  */
+.contenido_articulo_departament{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-self:center;
+    align-items: center;
+}
+/* los articles dentro de contenido de articulos */
+.contenido_articulo_departament > article{
+    width: 48%;
+}
+/* las tags  */
+
+.tag{
+text-align: center;
+margin-top: 50px;
+}

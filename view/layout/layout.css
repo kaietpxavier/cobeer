@@ -1,0 +1,50 @@
+/* gama de colores: 
+
+#E6D587
+#D4942A
+#DB8300
+#EBB96B
+#96580C
+
+*/
+
+
+
+
+
+
+body, html{
+    padding:0;
+    margin:0;
+    width: 100vw;
+}
+.layout { 
+    width:100vw;
+    height:100vh; 
+    display: grid;
+    grid:
+      "header" 10vh
+      "main" auto
+      "footer" 10vh
+      ;
+  }
+  
+  header { 
+    width: 100%;
+    margin: auto;
+    grid-area: header;
+    /* background-color: blue;  */
+  }
+  main { 
+    width: 100%;
+    margin: auto;
+    grid-area: main;
+    /* background-color: yellow;  */
+}
+  footer { 
+    width: 100%;
+    grid-area: footer;
+    /* background-color: brown;  */
+  }
+
+
